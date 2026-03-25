@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #222;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav button{
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+        }
+        .green{background-color: green;}
+        .red{background-color: red;}
+        .orange{background-color: orange;}
+        .blue{background-color: blue;}
+        .categories{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            padding: 15px;
+        }
+        .categories span{
+            background-color: #444;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .movie-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .movie{
+            background-color: #333;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
+        }
+        .movie img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie h4{
+            margin: 10px 0 5px;
+        }
+        .movie p{
+            font-size: 12px;
+            color: #bbb;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>VEGA MOVIES</header>
+
+<nav>
+    <button class="green">Bollywood</button>
+    <button class="red">Dual Audio</button>
+    <button class="orange">Hollywood</button>
+    <button class="blue">Join Us</button>
+</nav>
+
+<div class="categories">
+    <span>Action</span>
+    <span>Comedy</span>
+    <span>Drama</span>
+    <span>Horror</span>
+    <span>Romance</span>
+    <span>Thriller</span>
+</div>
+
+<div class="movie-list">
+    <div class="movie">
+        <a href="https://youtu.be/J5_ExzFLVM8?si=nYlE70vCDX5HBA6k">
+        <img src="dangal.jpg" alt="Movie 1"></a>
+        <h4>Dangal</h4>
+        <p>2016 | Action | 1080p</p>
+    </div>
+    <div class="movie-list">
+    <div class="movie">
+        <a href="https://youtu.be/e2eaXjb7LQ8?si=vH-orvk8ptpTqWaa">
+        <img src="3idiots.jpeg" alt="Movie 2"></a>
+        <h4>3 Idiots</h4>
+        <p>2009 | Comedey | 1080p</p>
+    </div>
+    <div class="movie-list">
+    <div class="movie">
+        <a href="https://youtu.be/YDuLvqgcX4I?si=5x0vkA0jLE42DI0O">
+        <img src="padmavati.jpeg" alt="Movie 3"></a>
+        <h4>Padmaavat</h4>
+        <p>2018 | Romance | 1080p</p>
+    </div>
+    <div class="movie-list">
+    <div class="movie">
+        <a href="https://youtu.be/7zBBWAlpShY?si=Oa7DghT82xXgldU3">
+        <img src="harrypotter.jpg" alt="Movie 4"></a>
+        <h4>Harry Potter and the Sorcerer's Stone</h4>
+        <p>2001| Thriller | 1080p</p>
+    </div>
+
+</body>
+</html>
+</body>
+</html>
